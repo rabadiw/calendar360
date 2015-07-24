@@ -1,0 +1,10 @@
+{
+  "ApplicationInsights": {
+    "InstrumentationKey": "6d75518b-f2a0-4181-8eac-ace0650d5759"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Calendar360.Web-3f5894e3-8bc6-47e2-bed4-2e7e662b5916;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar360.Api", "Calendar360.Api\Calendar360.Api.csproj", "{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar360.Api.Tests", "Calendar360.Api.Tests\Calendar360.Api.Tests.csproj", "{C9F29224-DEB4-48BC-9880-C0102032E893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F008C7E1-E450-4049-ACFA-6059DA7894A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{3C6AA776-1C50-4829-9F93-16CE66F2DD13}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Calendar360.Web", "Calendar360.Web\Calendar360.Web.xproj", "{38C9E3A1-B992-45F2-BD1B-3525964EF1B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F29224-DEB4-48BC-9880-C0102032E893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F29224-DEB4-48BC-9880-C0102032E893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F29224-DEB4-48BC-9880-C0102032E893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F29224-DEB4-48BC-9880-C0102032E893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C9E3A1-B992-45F2-BD1B-3525964EF1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C9E3A1-B992-45F2-BD1B-3525964EF1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C9E3A1-B992-45F2-BD1B-3525964EF1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C9E3A1-B992-45F2-BD1B-3525964EF1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1AD1A60-E9E1-4408-B66C-BE2A53C38E06} = {F008C7E1-E450-4049-ACFA-6059DA7894A1}
+		{C9F29224-DEB4-48BC-9880-C0102032E893} = {F008C7E1-E450-4049-ACFA-6059DA7894A1}
+		{38C9E3A1-B992-45F2-BD1B-3525964EF1B1} = {3C6AA776-1C50-4829-9F93-16CE66F2DD13}
+	EndGlobalSection
+EndGlobal
